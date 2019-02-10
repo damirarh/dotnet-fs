@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <RootNamespace>dotnet_fs</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Damir Arh</Authors>
+    <Company />
+    <Description>.NET Core global tool for printing file contents to console</Description>
+    <PackageProjectUrl>https://github.com/damirarh/dotnet-fs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/damirarh/dotnet-fs</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/damirarh/dotnet-fs/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType></RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.2" />
+  </ItemGroup>
+
+</Project>
