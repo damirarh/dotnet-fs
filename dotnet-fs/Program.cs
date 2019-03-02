@@ -8,9 +8,9 @@ namespace dotnet_fs
     {
         // ...
 
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            CommandLineApplication.Execute<Program>(args);
+            return CommandLineApplication.Execute<Program>(args);
         }
 
         public int OnExecute(CommandLineApplication app, IConsole console)
