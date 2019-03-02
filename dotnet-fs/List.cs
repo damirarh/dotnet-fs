@@ -10,7 +10,7 @@ namespace dotnet_fs
         [Option(Description = "Folder path.")]
         public string Path { get; } = ".";
 
-        private void OnExecute(IConsole console)
+        public void OnExecute(IConsole console)
         {
             try
             {

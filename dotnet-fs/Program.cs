@@ -13,7 +13,7 @@ namespace dotnet_fs
             CommandLineApplication.Execute<Program>(args);
         }
 
-        private int OnExecute(CommandLineApplication app, IConsole console)
+        public int OnExecute(CommandLineApplication app, IConsole console)
         {
             console.WriteLine("You must specify a subcommand.");
             console.WriteLine();
