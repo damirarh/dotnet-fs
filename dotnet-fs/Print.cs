@@ -5,7 +5,7 @@ using System.IO;
 
 namespace dotnet_fs
 {
-    [Command(Description = "Prints out contents of a file.")]
+    [Command(Description = "Prints out the contents of a file.")]
     class Print
     {
         [Required]
